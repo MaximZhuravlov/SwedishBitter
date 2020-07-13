@@ -190,7 +190,7 @@ a {
 }
 
 .showcase-form input[type="text"],
-.showcase-form input[type="phone"] {
+.showcase-form input[type="tel"] {
 	display: inline-block;
 	width: 200px;
 	border: none;
@@ -201,21 +201,21 @@ a {
 }
 
 .showcase-form input[type="text"]::placeholder,
-.showcase-form input[type="phone"]::placeholder {
+.showcase-form input[type="tel"]::placeholder {
 	font-size: 14px;
 	line-height: 14px;
 	color: var(--light-green);
 }
 
 .showcase-form input[type="text"]::-webkit-input-placeholder,
-.showcase-form input[type="phone"]::-webkit-input-placeholder {
+.showcase-form input[type="tel"]::-webkit-input-placeholder {
 	font-size: 14px;
 	line-height: 14px;
 	color: #cddcbc;
 }
 
 .showcase-form input[type="text"]::-ms-input-placeholder,
-.showcase-form input[type="phone"]::-ms-input-placeholder {
+.showcase-form input[type="tel"]::-ms-input-placeholder {
 	font-size: 14px;
 	line-height: 14px;
 	color: #cddcbc;
