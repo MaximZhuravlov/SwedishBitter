@@ -1,0 +1,1196 @@
+@media (max-width: 1640px) {
+	.popularity-list {
+		background-color: #fff;
+		padding-left: 20px;
+		padding-right: 0;
+	}
+
+	.history-wrapper {
+		background-size: 50%;
+	}
+
+	.history-form {
+		margin-left: 0;
+	}
+}
+
+@media (max-width: 1400px) {
+	.popularity-wrapper {
+		background-size: 650px;
+	}
+}
+
+@media (max-width: 1200px) {
+	.heading {
+		font-size: 30px;
+		line-height: 40px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.showcase-image {
+		margin-left: 0;
+		margin-right: 75px;
+	}
+
+	.showcase-subject {
+		position: relative;
+	}
+
+	.showcase-subject-title {
+		font-size: 50px;
+	}
+
+	.showcase-subject-description {
+		font-size: 16px;
+	}
+
+	.showcase-form {
+		position: absolute;
+		right: -12px;
+		bottom: -5px;
+		width: 570px;
+	}
+
+	.diseases {
+		margin-bottom: 135px;
+	}
+
+	.diseases .heading {
+		max-width: 350px;
+		text-align: center;
+	}
+
+	.diseases-inner {
+		flex-direction: column;
+	}
+
+	.diseases-list {
+		padding-left: 33px;
+		padding-right: 33px;
+		margin-right: 0;
+	}
+
+	.diseases-map {
+		width: 100%;
+	}
+
+	.diseases-map-image {
+		max-width: 500px;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.diseases-map-image-wrapper {
+		background-color: #a4c58c;
+		position: relative;
+	}
+
+	.diseases-map-image-wrapper::before,
+	.diseases-map-image-wrapper::after {
+		position: absolute;
+		content: "";
+		top: 0;
+		width: 15px;
+		height: 100%;
+		background-color: #a4c58c;
+	}
+
+	.diseases-map-image-wrapper::before {
+		right: 100%;
+	}
+
+	.diseases-map-image-wrapper::after {
+		left: 100%;
+	}
+
+	.diseases-map-image img {
+		display: block;
+	}
+
+	.diseases-map-reviews,
+	.get-rid-of-problems {
+		max-width: 420px;
+	}
+
+	.get-rid-of-problems {
+		padding: 25px 77px;
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.get-rid-of-problems::after {
+		right: 58px;
+	}
+
+	.diseases-map-reviews {
+		left: 50%;
+		transform: translateX(-50%);
+	}
+
+	.popularity-wrapper {
+		background-size: 600px;
+	}
+
+	.history {
+		background-color: #f6f9f3;
+	}
+
+	.history .container {
+		padding: 0;
+	}
+
+	.history-wrapper {
+		background-image: none;
+		min-height: initial;
+	}
+
+	.history .heading {
+		text-align: center;
+		margin-bottom: 0;
+		padding-top: 0;
+	}
+
+	.history-text {
+		max-width: 100%;
+		padding-left: 15px;
+		padding-right: 15px;
+		margin-bottom: 0;
+	}
+
+	.history-form {
+		background-color: #fff;
+		max-width: 100%;
+		padding-top: 30px;
+		padding-left: 45px;
+		padding-right: 50%;
+		position: relative;
+		padding-bottom: 242px;
+		margin-bottom: 50px;
+	}
+
+	.history-form::after {
+		position: absolute;
+		content: "";
+		width: 355px;
+		height: 420px;
+		background-image: url(../images/history-background.jpg);
+		background-repeat: no-repeat;
+		right: 15px;
+		top: -25px;
+		background-size: cover;
+	}
+
+	.quotation-wrapper {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+
+	.reviews .heading {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.certificate-inner {
+		padding-left: 20px;
+	}
+
+	.certificate-content {
+		margin-right: 0;
+	}
+}
+
+@media (max-width: 1100px) {
+	.footer-links {
+		flex-direction: column;
+	}
+
+	.footer-links a:not(:last-child) {
+		margin-right: 0;
+		margin-bottom: 12px;
+	}
+}
+
+@media (max-width: 1024px) {
+	.showcase-image {
+		width: 40%;
+	}
+
+	.showcase-subject {
+		width: 55%;
+	}
+
+	.showcase-subject-title {
+		margin-bottom: 10px;
+	}
+
+	.advantages {
+		margin-bottom: 125px;
+	}
+
+	.popularity {
+		margin-bottom: 0;
+	}
+
+	.popularity-wrapper {
+		background-size: 500px;
+	}
+
+	.popularity-box {
+		margin-right: 0;
+	}
+
+	.history {
+		padding-top: 125px;
+	}
+
+	.quotation,
+	.quotation-wrapper {
+		background-image: none;
+		min-height: initial;
+	}
+
+	.benefits-wrapper {
+		min-height: initial;
+	}
+
+	.benefits-item {
+		width: 225px;
+		min-height: 225px;
+	}
+
+	.benefits-item-number {
+		font-size: 110px;
+	}
+
+	.benefits-item-content p {
+		font-size: 10px;
+	}
+
+	.benefits-title {
+		max-width: none;
+	}
+
+	.benefits .heading {
+		text-align: center;
+	}
+
+	.composition-inner {
+		width: 724px;
+		margin-left: auto;
+		margin-right: auto;
+		grid-template-columns: repeat(2, minmax(auto, 355px));
+		grid-template-rows: repeat(7, minmax(170px, auto));
+		grid-template-areas:
+			"composition composition"
+			"Angelica_archangelica Carlina_acaulis"
+			"Cunnamomum_camphora Fraxinus_ornus"
+			"Cammiphora_molmol Pheum_palmatum"
+			"Crocus_sativus Cassia_angustifolia"
+			"Artemisia_absinthium Curcuma_zedoaria"
+			"species_unknown purchase";
+		grid-gap: 30px 20px;
+	}
+
+	.composition-plant {
+		min-height: 330px;
+	}
+
+	.composition-plant:nth-child(13) .composition-plant-latin {
+		top: 230px;
+	}
+
+	.composition-description {
+		padding-bottom: 0;
+		min-height: 225px;
+	}
+
+	.composition-description li:not(:last-child) {
+		margin-bottom: 30px;
+	}
+
+	.composition-description .heading {
+		text-align: center;
+	}
+
+	.composition-purchase {
+		padding-top: 106px;
+		padding-left: 0;
+	}
+
+	.composition-purchase li {
+		text-align: center;
+		padding-left: 20px;
+		padding-right: 20px;
+	}
+
+	.composition-purchase li::before {
+		display: none;
+	}
+
+	.composition-purchase li:last-child {
+		display: none;
+	}
+
+	.composition-purchase-button {
+		float: none;
+		max-width: 100%;
+		width: 100%;
+		padding-left: 40px;
+		padding-right: 100px;
+	}
+
+	.certificate-inner {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.certificate .heading {
+		text-align: center;
+	}
+
+	.certificate-content .subtitle {
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.certificate-image {
+		margin-top: 50px;
+		margin-right: 0;
+	}
+
+	.certificate-image img {
+		max-width: 100%;
+		height: auto;
+	}
+}
+
+@media (max-width: 900px) {
+	.advantages-inner {
+		grid-template-columns: repeat(2, 1fr);
+	}
+
+	.advantage-item {
+		padding-top: 40px;
+		padding-left: 50px;
+	}
+
+	.popularity {
+		position: relative;
+	}
+
+	.popularity-wrapper {
+		background-image: none;
+		min-height: initial;
+	}
+
+	.popularity-inner {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+	}
+
+	.popularity-list {
+		padding-left: 0;
+		max-width: 540px;
+		order: 0;
+		margin-bottom: 35px;
+	}
+
+	.popularity .heading {
+		margin-bottom: 35px;
+	}
+
+	.popularity .heading,
+	.popularity .subtitle {
+		text-align: center;
+	}
+
+	.popularity-list li {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.popularity-mobile-background {
+		display: block;
+		background-image: url("../images/popularity-background.jpg");
+		background-repeat: no-repeat;
+		background-size: contain;
+		min-height: 645px;
+		width: 100%;
+	}
+
+	.popularity-box {
+		order: 1;
+		max-width: 600px;
+		position: absolute;
+		z-index: 5;
+		bottom: 8px;
+	}
+
+	.history-form {
+		padding-right: 57%;
+	}
+
+	.history-form button {
+		padding: 24px;
+	}
+
+	.history-form button::after {
+		display: none;
+	}
+
+	.benefits {
+		margin-bottom: 120px;
+	}
+
+	.reviews {
+		margin-bottom: 50px;
+	}
+
+	.review-tab {
+		padding-right: 30px;
+	}
+
+	.reviews-content-item-inner {
+		grid-template-columns: 1fr;
+	}
+
+	.reviews-more {
+		float: none;
+		flex-direction: column;
+		max-width: 100%;
+	}
+
+	.reviews-more-link {
+		margin-bottom: 20px;
+		margin-right: 0;
+	}
+
+	.reviews-more-link,
+	.reviews-join {
+		display: block;
+	}
+
+	.concoction {
+		margin-bottom: 50px;
+	}
+
+	.concoction-wrapper {
+		background-image: none;
+		min-height: initial;
+		padding-top: 0;
+	}
+
+	.concoction-inner {
+		margin-right: auto;
+		margin-left: auto;
+	}
+}
+
+@media (max-width: 800px) {
+	.review-tab {
+		padding-left: 30px;
+	}
+}
+
+@media (max-width: 767px) {
+	.composition {
+		margin-bottom: 50px;
+	}
+
+	.composition-inner {
+		width: 70%;
+		grid-template-columns: 1fr;
+		grid-template-rows: repeat(13, minmax(0, auto));
+		grid-template-areas:
+			"composition"
+			"Angelica_archangelica"
+			"Carlina_acaulis"
+			"Cunnamomum_camphora"
+			"Fraxinus_ornus"
+			"Cammiphora_molmol"
+			"Pheum_palmatum"
+			"Crocus_sativus"
+			"Cassia_angustifolia"
+			"Artemisia_absinthium"
+			"Curcuma_zedoaria"
+			"species_unknown"
+			"purchase";
+	}
+
+	.composition-plant {
+		min-height: 300px;
+	}
+
+	.composition-description {
+		padding-left: 0;
+	}
+
+	.composition-purchase {
+		margin-top: 0;
+		padding-top: 50px;
+	}
+
+	.composition-purchase-button {
+		padding: 24px;
+		text-align: center;
+	}
+
+	.composition-purchase-button::after {
+		display: none;
+	}
+
+	.composition-plant:nth-child(13) .composition-plant-latin {
+		top: 200px;
+	}
+
+	.reviews {
+		margin-bottom: 50px;
+	}
+
+	.reviews-content-item-inner {
+		padding: 57px 30px;
+	}
+}
+
+@media (max-width: 750px) {
+	.advantage-item-text {
+		max-width: 215px;
+	}
+
+	.review-tab {
+		font-size: 12px;
+		line-height: 18px;
+		text-align: center;
+	}
+
+	.reviews-content-item-unit-text,
+	.reviews-content-item-unit-author {
+		font-size: 14px;
+	}
+
+	.concoction .heading,
+	.concoction .subtitle {
+		text-align: center;
+	}
+
+	.concoction-inner-box {
+		padding: 20px;
+	}
+
+	.create-concoction {
+		display: block;
+		padding: 24px;
+		max-width: 100%;
+		text-align: center;
+	}
+
+	.create-concoction::after {
+		display: none;
+	}
+}
+
+@media (max-width: 680px) {
+	.logo-text {
+		display: none;
+	}
+
+	.showcase-image img {
+		width: 200px;
+		height: auto;
+	}
+
+	.showcase-form {
+		bottom: -85px;
+	}
+
+	.showcase-form-title {
+		margin-bottom: 20px;
+	}
+
+	.showcase-subject-subtitle {
+		margin-top: 0;
+	}
+
+	.showcase-form-inner {
+		padding-left: 10px;
+		padding-top: 10px;
+	}
+
+	.showcase-form-title {
+		width: 100%;
+		text-align: center;
+	}
+
+	.showcase-form-fields {
+		margin-bottom: 0;
+	}
+
+	.showcase-form input[type="text"],
+	.showcase-form input[type="phone"] {
+		display: block;
+		width: 80%;
+		margin: 0 auto 20px auto;
+	}
+
+	.showcase-form-button {
+		text-align: center;
+	}
+
+	.showcase-form button[type="submit"] {
+		width: 80%;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+
+	.history-form {
+		padding: 400px 15px 50px 15px;
+	}
+
+	.history-form::after {
+		left: 0;
+		right: 0;
+		top: 0;
+		width: 100%;
+		height: 385px;
+	}
+
+	.reviews-more-link {
+		text-decoration: none;
+	}
+
+	.reviews-join {
+		padding: 24px;
+		text-align: center;
+	}
+
+	.reviews-join::after {
+		display: none;
+	}
+
+	.footer .header-phone-number::before {
+		display: none;
+	}
+
+	.footer .header-phone-number {
+		font-size: 14px;
+	}
+}
+
+@media (max-width: 600px) {
+	.showcase {
+		position: relative;
+	}
+
+	.showcase-content-inner {
+		flex-direction: column-reverse;
+		align-items: center;
+		text-align: center;
+	}
+
+	.showcase-subject {
+		width: 90%;
+		margin-top: -60px;
+	}
+
+	.showcase-subject-subtitle {
+		font-size: 12px;
+		margin-bottom: 12px;
+	}
+
+	.showcase-subject-title {
+		font-size: 30px;
+		line-height: 36px;
+	}
+
+	.showcase-subject-description {
+		margin-bottom: 0;
+	}
+
+	.showcase-form {
+		display: none;
+	}
+
+	.showcase-image {
+		margin-right: 0;
+	}
+
+	.showcase-image img {
+		width: 135px;
+		height: 295px;
+	}
+
+	.showcase-mobile-button {
+		position: absolute;
+		bottom: -114px;
+		display: block;
+		width: 100%;
+	}
+
+	.advantages {
+		padding-top: 80px;
+		margin-bottom: 50px;
+	}
+
+	.advantage-item::before {
+		display: none;
+	}
+
+	.popularity {
+		margin-bottom: 0px;
+	}
+
+	.popularity-box {
+		display: block;
+	}
+
+	.popularity-box-inner {
+		border: none;
+		padding-top: 0;
+	}
+
+	.popularity-box-text {
+		text-align: center;
+		padding: 0;
+	}
+
+	.popularity-box-link {
+		padding: 24px;
+		text-align: center;
+	}
+
+	.popularity-box-link::after {
+		display: none;
+	}
+
+	.history {
+		padding-top: 50px;
+	}
+
+	.benefits-items {
+		flex-direction: column;
+		align-items: center;
+	}
+
+	.benefits-item {
+		width: 90%;
+		margin-bottom: 10px;
+	}
+
+	.composition-inner {
+		width: 80%;
+	}
+
+	.footer-inner {
+		flex-direction: column;
+	}
+
+	.footer-logo {
+		display: none;
+	}
+
+	.footer-links {
+		margin-bottom: 50px;
+	}
+}
+
+@media (max-width: 550px) {
+	.advantages-inner {
+		grid-template-columns: 1fr;
+	}
+
+	.advantage-item-text {
+		max-width: 90%;
+	}
+
+	.certificate-inner {
+		padding-left: 0;
+	}
+
+	.certificate-wrapper {
+		padding-bottom: 10px;
+	}
+
+	.certificate .heading {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.certificate-content .subtitle {
+		font-size: 12px;
+	}
+
+	.certificate-box {
+		padding: 0;
+		background-color: #f6f9f3;
+	}
+
+	.certificate-box-inner {
+		padding-left: 0;
+		padding-top: 0;
+		border: none;
+	}
+
+	.certificate-content {
+		padding-right: 0;
+	}
+
+	.certificate-but {
+		display: none;
+	}
+
+	.certificate-order {
+		float: none;
+		display: block;
+		max-width: 100%;
+		font-size: 12px;
+		text-align: center;
+		padding: 24px;
+	}
+
+	.certificate-order::before,
+	.certificate-order::after {
+		position: absolute;
+		content: "";
+		background-color: var(--green);
+		width: 15px;
+		height: 100%;
+		top: 0;
+	}
+
+	.certificate-order::before {
+		right: 100%;
+	}
+
+	.certificate-order::after {
+		left: 100%;
+		background-image: none;
+		transform: none;
+	}
+}
+
+@media (max-width: 530px) {
+	.diseases {
+		margin-bottom: 55px;
+	}
+
+	.diseases-map-image-wrapper {
+		background-color: #fff;
+	}
+
+	.diseases-map-image-wrapper::before,
+	.diseases-map-image-wrapper::after,
+	.diseases-list li.active-tab::after {
+		display: none;
+	}
+
+	.diseases-map-image img,
+	.diseases-map-image .tab-item {
+		display: none;
+	}
+
+	.diseases-map-reviews {
+		position: static;
+		left: 0;
+		transform: none;
+		width: 100%;
+		max-width: 100%;
+	}
+
+	.diseases-list {
+		padding: 0;
+	}
+
+	.diseases-list li {
+		padding-right: 0;
+	}
+
+	.diseases-reviews-inner {
+		padding-left: 10px;
+		padding-right: 10px;
+	}
+
+	.diseases-reviews-text {
+		font-size: 14px;
+	}
+
+	.get-rid-of-problems {
+		width: 100%;
+		max-width: 100%;
+		margin-top: 23px;
+		text-align: center;
+		font-size: 12px;
+		padding: 25px;
+	}
+
+	.get-rid-of-problems::before,
+	.get-rid-of-problems::after {
+		position: absolute;
+		background-color: var(--green);
+		width: 15px;
+		height: 100%;
+		content: "";
+		top: 0;
+	}
+
+	.get-rid-of-problems::before {
+		right: 100%;
+	}
+
+	.get-rid-of-problems::after {
+		left: 100%;
+		transform: none;
+		background-image: none;
+	}
+
+	.popularity .heading {
+		margin-top: 0;
+	}
+
+	.popularity-box {
+		padding-left: 0;
+		padding-right: 0;
+	}
+
+	.popularity-box-text {
+		font-size: 14px;
+		padding-left: 22px;
+		padding-right: 22px;
+	}
+
+	.popularity-box-link {
+		display: none;
+	}
+
+	.popularity-box-link-mobile {
+		display: inline-block;
+		font-weight: 600;
+		font-size: 12px;
+		line-height: 22px;
+		letter-spacing: 0.6px;
+		color: #fff;
+		text-transform: uppercase;
+		padding: 24px;
+		background-color: var(--green);
+		width: 100%;
+		text-align: center;
+	}
+
+	.history-form button::before,
+	.history-form button::after {
+		position: absolute;
+		background-color: var(--green);
+		width: 15px;
+		height: 100%;
+		content: "";
+		top: 0;
+	}
+
+	.history-form button::before {
+		right: 100%;
+	}
+
+	.history-form button::after {
+		background-image: none;
+		display: block;
+		transform: none;
+		left: 100%;
+	}
+}
+
+@media (max-width: 500px) {
+	.popularity-mobile-background {
+		min-height: 575px;
+	}
+
+	.citation {
+		padding-top: 15px;
+		padding-bottom: 15px;
+	}
+
+	.citation-text {
+		font-size: 14px;
+		line-height: 24px;
+	}
+
+	.citation-author {
+		font-size: 14px;
+		line-height: 18px;
+	}
+
+	.citation-author span {
+		display: block;
+		font-size: 12px;
+		line-height: 30px;
+	}
+
+	.composition-inner {
+		width: 100%;
+	}
+
+	.composition-description {
+		padding-left: 20px;
+	}
+
+	.composition-description .heading {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.composition-purchase {
+		padding-top: 0;
+		border: none;
+	}
+
+	.composition-purchase ul {
+		margin-bottom: 15px;
+	}
+
+	.composition-purchase li:not(:last-child) {
+		margin-bottom: 0;
+	}
+
+	.composition-purchase-button {
+		font-size: 12px;
+	}
+
+	.composition-purchase-button::before,
+	.composition-purchase-button::after {
+		position: absolute;
+		background-color: var(--green);
+		width: 15px;
+		height: 100%;
+		content: "";
+		top: 0;
+	}
+
+	.composition-purchase-button::before {
+		right: 100%;
+	}
+
+	.composition-purchase-button::after {
+		background-image: none;
+		display: block;
+		transform: none;
+		left: 100%;
+	}
+
+	.reviews .heading {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.reviews-join {
+		font-size: 12px;
+	}
+
+	.concoction-inner {
+		padding: 0;
+	}
+
+	.concoction-inner-box {
+		border: none;
+		padding: 0;
+	}
+
+	.concoction .heading {
+		font-size: 24px;
+		line-height: 30px;
+	}
+
+	.concoction .subtitle {
+		font-size: 12px;
+		margin-top: 15px;
+		margin-bottom: 25px;
+	}
+
+	.create-concoction {
+		font-size: 12px;
+	}
+
+	.create-concoction::before,
+	.create-concoction::after {
+		position: absolute;
+		content: "";
+		background-color: var(--green);
+		width: 15px;
+		height: 100%;
+		top: 0;
+	}
+
+	.create-concoction::before {
+		right: 100%;
+	}
+
+	.create-concoction::after {
+		left: 100%;
+		background-image: none;
+		transform: none;
+		display: block;
+	}
+}
+
+@media (max-width: 460px) {
+	.header-inner {
+		align-items: center;
+	}
+
+	.header-phone-text,
+	.header-phone-number::before {
+		display: none;
+	}
+
+	.header-phone-number {
+		font-size: 14px;
+		margin-bottom: 0;
+	}
+
+	.history .subtitle {
+		text-align: center;
+	}
+}
+
+@media (max-width: 390px) {
+	.header img {
+		width: 110px;
+		height: 16px;
+	}
+
+	.showcase-background {
+		min-height: 375px;
+	}
+
+	.showcase-subject {
+		width: 50%;
+		margin-bottom: 20px;
+		margin-top: 95px;
+	}
+
+	.showcase-subject-description {
+		display: none;
+	}
+
+	.showcase-image img {
+		width: 86px;
+		height: 188px;
+	}
+
+	.showcase-mobile-button {
+		bottom: -96px;
+	}
+
+	.popularity-mobile-background {
+		min-height: 490px;
+	}
+
+	.reviews .container {
+		padding: 0;
+	}
+
+	.review-tab {
+		font-size: 10px;
+		padding-left: 15px;
+	}
+}
